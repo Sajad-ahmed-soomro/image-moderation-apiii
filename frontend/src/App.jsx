@@ -9,7 +9,7 @@ function App() {
   const [file, setFile] = useState(null);
   const [report, setReport] = useState(null);
 
-  // Use backend API URL from environment variables
+  // Use backend API URL from environment variables this is used
   const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:7000";
 
   const handleSubmit = async () => {
