@@ -17,16 +17,19 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./backend
 
       - name: Run lint
         run: npm run lint
+        working-directory: ./backend
 
       - name: Run tests
         run: npm test
+        working-directory: ./backend
 
       - name: Build Docker image
         run: docker build -t image-moderation-api-backend ./backend
