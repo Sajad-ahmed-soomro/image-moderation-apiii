@@ -32,5 +32,5 @@ Includes token-based authentication with admin-managed tokens and integrates wit
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Sajad-ahmed-soomro/image-moderation-apiii.git
 cd image-moderation-api
