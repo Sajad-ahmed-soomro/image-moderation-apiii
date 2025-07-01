@@ -23,7 +23,7 @@ Includes a React-based frontend and fully containerized services for deployment 
 - ✅ Token-based authentication (Bearer tokens)
 - 🔐 Admin-only endpoints to generate, list, and revoke access tokens
 - 📷 Image moderation endpoint (`/moderate`) accepting image uploads via `multipart/form-data`
-- 🧠 NSFWJS AI model for predictions like `Porn`, `Sexy`, `Drawing`, `Neutral`, `Hentai`
+- 🧠 NSFWJS AI model for predictions like `Adult`, `Drawing`, `Neutral`, `Hentai`
 - 🐳 Dockerized backend, frontend, and MongoDB setup
 - 🔄 CORS enabled for frontend-backend communication
 - ⚙️ GitHub Actions CI workflow for linting and testing
