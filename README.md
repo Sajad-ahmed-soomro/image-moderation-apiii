@@ -56,12 +56,14 @@ git clone https://github.com/Sajad-ahmed-soomro/image-moderation-apiii.git
 cd image-moderation-apiii
 cd frontend
 npm install
-cd backend
+npm start
+cd ../backend
 npm install
+node server.js
 
 
-
-
+Spin up all services (backend, frontend, database):
 
 📸 Project Screenshot / Banner
-<div align="center"> <img src="https://github.com/user-attachments/assets/cb495b25-5c71-4d99-b199-363df69be11c" alt="Image Moderation API Banner" width="100%" /> </div>
+<div align="center"> <img src="https://github.com/user-attachments/assets/cb495b25-5c71-4d99-b199-363df69be11c" alt="Image Moderation API Banner" width="100%" /> </div> ```
+
