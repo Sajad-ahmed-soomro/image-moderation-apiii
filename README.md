@@ -58,5 +58,10 @@ cd frontend
 npm install
 cd backend
 npm install
+
+
+
+
+
 📸 Project Screenshot / Banner
 <div align="center"> <img src="https://github.com/user-attachments/assets/cb495b25-5c71-4d99-b199-363df69be11c" alt="Image Moderation API Banner" width="100%" /> </div>
